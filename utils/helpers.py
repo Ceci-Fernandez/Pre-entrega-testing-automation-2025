@@ -11,3 +11,9 @@ def esperar_url_contiene(driver, texto_url, timeout=10):
     except:
         return False
 
+def obtener_credenciales_validas():
+
+    return {
+        "usuario": "standard_user",
+        "password": "secret_sauce"
+    }
